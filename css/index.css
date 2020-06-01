@@ -132,9 +132,6 @@ main section.alert a:hover{
     body {
         font-size: 90%;
     }
-    .arriba{
-        display: none;
-    }
 }
 
 @media screen and (min-width:60em) {
