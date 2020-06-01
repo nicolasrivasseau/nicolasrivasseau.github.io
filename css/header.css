@@ -53,7 +53,7 @@ header nav .menu li a {
 header nav .menu li a:hover,
 header nav .menu li a.active {
     background-color: none;
-    color: #0082e6;
+    color:  #e9324e;
 }
 
 header nav .menu li a {
@@ -178,7 +178,7 @@ header nav #check_search:checked~.container-search {
     }
     header nav .menu li a:hover,
     header nav .menu li a.active {
-        background-color: #1b9bff;
+        background-color: #e9324e;
         transition: .5s;
         color: white;
     }

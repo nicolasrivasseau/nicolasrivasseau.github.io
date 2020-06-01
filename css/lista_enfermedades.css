@@ -105,6 +105,15 @@ body{
       font-size: 3em;
       color:rgba(0, 0, 0, 0.75) ;
   }
+  .arriba{
+    position: fixed;
+    font-size: 2em;
+    color:#fd0202be;
+    bottom: 5px;
+    right: 5px;
+    z-index: 100;
+}
+
   @media screen and (min-width:47em){
       body{
           font-size:90%;
@@ -119,6 +128,9 @@ body{
         display: block;
         margin: 0 auto;    
         border-radius: 5em;
+    }
+    .arriba{
+        display: none;
     }
    
   }
@@ -148,6 +160,9 @@ body{
       .disease img{
         width: 70%;
     
+    }
+    .arriba{
+        display: none;
     }
 
 }

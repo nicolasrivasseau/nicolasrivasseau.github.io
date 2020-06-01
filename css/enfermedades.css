@@ -398,6 +398,15 @@ body{
         height: 20em;
         padding: 1em;
       }
+      .arriba{
+        position: fixed;
+        font-size: 2em;
+        color:#fd0202be;
+        bottom: 5px;
+        right: 5px;
+        z-index: 100;
+    }
+
 
    @media screen and (min-width: 60em){
       body {
@@ -507,8 +516,11 @@ body{
     .field_travel p{
       padding: 0;
     }
+    .arriba{
+      display: none;
+  }
    
    }
-
+   
    
   

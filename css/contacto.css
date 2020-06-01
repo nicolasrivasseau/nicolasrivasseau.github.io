@@ -101,6 +101,15 @@ main .ubication h1 {
     margin: 0.4em 0;
     font-size: 1.5em;
 }
+.arriba{
+    position: fixed;
+    font-size: 2em;
+    color:#fd0202be;
+    bottom: 5px;
+    right: 5px;
+    z-index: 100;
+}
+
 
 
 /* </main contact>*/
@@ -116,6 +125,9 @@ main .ubication h1 {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "contact data_contact";
     }
+    .arriba{
+        display: none;
+    }
 }
 
 @media screen and (min-width:60em) {
@@ -129,5 +141,8 @@ main .ubication h1 {
         margin: 0 auto;
         background-color: #ffffff;
         box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+    .arriba{
+        display: none;
     }
 }

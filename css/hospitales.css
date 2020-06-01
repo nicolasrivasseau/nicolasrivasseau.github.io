@@ -4,10 +4,22 @@
     grid-template-rows: 0.3fr 8fr;
     width: 100%;
 }
+.arriba{
+    position: fixed;
+    font-size: 2em;
+    color:#fd0202be;
+    bottom: 5px;
+    right: 5px;
+    z-index: 100;
+}
+
 
 @media screen and (min-width:47em) {
     body {
         font-size: 90%;
+    }
+    .arriba{
+        display: none;
     }
 }
 
@@ -29,5 +41,8 @@
     }
     .main.map .title {
         margin: auto;
+    }
+    .arriba{
+        display: none;
     }
 }

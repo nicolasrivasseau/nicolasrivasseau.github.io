@@ -47,6 +47,9 @@ section.articles article .description {
     background-color: rgba(0, 0, 0, .8);
     color: white;
 }
+section.articles article .description h1 {
+    margin: .5rem 0;
+}
 
 section.articles article {
     position: relative;
@@ -72,17 +75,30 @@ main section.alert {
     background-color: rgba(0, 0, 0, .7);
     text-align: center;
 }
-main section.alert a{
+main section.alert h1 {
     font-style: none;
     color: #ffffff;
     font-size: 4em;
-    transition: 1s;
+}
+main section.alert a{
+    font-style: none;
+    color: #ffffff;
+    font-size: 6em;
+    transition: .5s;
 }
 main section.alert a:hover{
     font-style: none;
     color: #fd0202be;
-    font-size: 4em;
 }
+.arriba{
+    position: fixed;
+    font-size: 2em;
+    color:#fd0202be;
+    bottom: 5px;
+    right: 5px;
+    z-index: 100;
+}
+
 
 
 @keyframes change {
@@ -116,9 +132,12 @@ main section.alert a:hover{
     body {
         font-size: 90%;
     }
+    .arriba{
+        display: none;
+    }
 }
 
-@media screen and (min-width:80em) {
+@media screen and (min-width:60em) {
     body {
         font-size: 100%;
         background-color: #d6dbd7;
@@ -147,4 +166,16 @@ main section.alert a:hover{
         width: 100%;
         height: 23.125rem;
     }
+    section.alert {
+        display: flex;
+        justify-content: center;
+    }
+    section.alert .description,
+    section.alert .number {
+        margin: auto;
+    }
+    .arriba{
+        display: none;
+    }
 }
+
